@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+@mixin mobile {
+  @media (max-width: $mobile-size) { @content; }
+}
+@mixin tablet {
+  @media (max-width: $tablet-size) { @content; }
+}
+
+@mixin card-border {
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #4a527a;
+  box-shadow: 0 3px 6px 0 #4a527a;
+}
