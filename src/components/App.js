@@ -14,10 +14,9 @@ class App extends React.Component {
         <div className="app-body">
           <BrowserRouter>
             <Routes>
-              <Route path="/">
-                <Route path="/home" element={<GoodList />} />
-                <Route path="/details/:id" element={<GoodDetails />} />
-              </Route>
+              <Route index element={<GoodList />} />
+              <Route path="/home" element={<GoodList />} />
+              <Route path="/details/:id" element={<GoodDetails />} />
             </Routes>
           </BrowserRouter>
         </div>

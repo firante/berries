@@ -13,6 +13,7 @@ const resources = [
                       aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                       sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
       {
         id: 'bilberry_ice',
@@ -23,6 +24,7 @@ const resources = [
                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
       {
         id: 'bilberry_dried',
@@ -33,6 +35,7 @@ const resources = [
                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
     ],
   },
@@ -50,6 +53,7 @@ const resources = [
                       aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                       sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
       {
         id: 'averin_ice',
@@ -60,6 +64,7 @@ const resources = [
                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
       {
         id: 'averin_dried',
@@ -70,6 +75,7 @@ const resources = [
                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
     ],
   },
@@ -87,6 +93,7 @@ const resources = [
                       aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                       sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
       {
         id: 'lingonberry_ice',
@@ -97,6 +104,7 @@ const resources = [
                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
       {
         id: 'lingonberry_dried',
@@ -107,6 +115,7 @@ const resources = [
                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        price: '20$',
       },
     ],
   },
