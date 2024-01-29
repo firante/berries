@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/App.scss';
 import Header from './Header';
 import GoodList from './GoodList';
+import Footer from './Footer';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import GoodDetails from './GoodDetails';
@@ -20,6 +22,7 @@ class App extends React.Component {
             </Routes>
           </BrowserRouter>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -6,6 +6,11 @@ class GoodDetailItem extends React.Component {
     this.style = {
       backgroundImage: `url(${this.props.goodDetail.image})`,
     };
+    this.onClickRedirect = this.onClickRedirect.bind(this);
+  }
+
+  onClickRedirect() {
+    window.scrollTo(0, document.body.scrollHeight);
   }
 
   render() {
@@ -19,7 +24,9 @@ class GoodDetailItem extends React.Component {
           <p className="good-detail-description">{this.props.goodDetail.description}</p>
           <div className="good-detail-footer">
             <p className="good-detail-price">Price: {this.props.goodDetail.price}</p>
-            <a href="">Contact Us</a>
+            <p className="content-ass-link" onClick={this.onClickRedirect}>
+              Contact Us
+            </p>
           </div>
         </div>
       </div>
